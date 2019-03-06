@@ -11,7 +11,14 @@ namespace app\controllers;
 
 class PostController extends AppController
 {
-    public function actionTest(){
+//    установка шаблона для контроллера Post
+    public $layout = 'basic';
+
+    public function actionIndex(){
+//        $this->layout = 'basic';
         return $this->render('test');
+    }
+    public function actionShow(){
+        return $this->render('show');
     }
 }

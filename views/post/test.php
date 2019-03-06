@@ -1,3 +1,1 @@
-<h1>Test</h1>
-<?php
-debug(Yii::$app);
+<h1>Test Action</h1>
